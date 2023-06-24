@@ -1,0 +1,14 @@
+{
+  "routes": [
+    {
+      "source": "^/app/(.*)$",
+      "target": "$1",
+      "localDir": "./"
+      
+    },
+    {
+      "source": "^/service/(.*)$",
+      "destination": "srv-api"
+    }
+  ]
+}
